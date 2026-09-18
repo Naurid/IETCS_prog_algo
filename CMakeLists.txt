@@ -3,5 +3,66 @@ project(IETCS_prog_algo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(IETCS_prog_algo main.c
+add_executable(exercice_1
+        "exercice_1(calcul_taux)/main.c"
+)
+add_executable(exercice_2
+        "exercice_2(2.3.1)/main.c"
+)
+add_executable(exercice_3
+        "exercice_3(2.3.2)/main.c"
+)
+add_executable(exercice_4
+        "exercice_4(2.3.3)/main.c"
+)
+add_executable(exercice_5
+        "exercice_5(2.3.4)/main.c"
+)
+add_executable(exercice_6
+        "exercice_6(2.3.5)/main.c"
+)
+add_executable(exercice_7
+        "exercice_7(2.3.6)/main.c"
+)
+add_executable(exercice_8
+        "exercice_8(2.3.7)/main.c"
+)
+add_executable(exercice_9
+        "exercice_9(2.3.8)/main.c"
+)
+add_executable(exercice_10
+        "exercice_10(2.3.9)/main.c"
+)
+add_executable(exercice_11
+        "exercice_11(2.3.10)/main.c"
+)
+add_executable(exercice_12
+        "exercice_12(2.3.11)/main.c"
+)
+add_executable(exercice_13
+        "exercice_13(2.3.12)/main.c"
+)
+add_executable(exercice_14
+        "exercice_14(2.3.13)/main.c"
+)
+add_executable(exercice_15
+        "exercice_15(2.3.14)/main.c"
+)
+add_executable(exercice_16
+        "exercice_16(2.3.15)/main.c"
+)
+add_executable(exercice_17
+        "exercice_17(2.3.16)/main.c"
+)
+add_executable(exercice_18
+        "exercice_18(2.3.17)/main.c"
+)
+add_executable(exercice_19
+        "exercice_19(2.3.18)/main.c"
+)
+add_executable(exercice_20
+        "exercice_20(2.3.19)/main.c"
+)
+add_executable(exercice_21
+        "exercice_21(2.3.20)/main.c"
 )
