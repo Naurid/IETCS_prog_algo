@@ -66,3 +66,27 @@ add_executable(exercice_20
 add_executable(exercice_21
         "exercice_21(2.3.20)/main.c"
 )
+add_executable(exercice_22
+        "exercice_22(2.3.21)/main.c"
+)
+add_executable(exercice_23
+        "exercice_23(2.3.22)/main.c"
+)
+add_executable(exercice_24
+        "exercice_24(2.3.23)/main.c"
+)
+add_executable(exercice_25
+        "exercice_25(2.3.24)/main.c"
+)
+add_executable(exercice_26
+        "exercice_26(2.3.25)/main.c"
+)
+add_executable(exercice_27
+        "exercice_27(2.3.26)/main.c"
+)
+add_executable(exercice_28
+        "exercice_28(2.3.27)/main.c"
+)
+add_executable(exercice_29
+        "exercice_29(2.3.28)/main.c"
+)
