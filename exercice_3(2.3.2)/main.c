@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     scanf("%f", &firstNumber);
     printf("introduisez le second chiffre:");
     scanf("%f", &secondNumber);
-    printf("la somme des deux chiffres est %.3f\n", firstNumber *15 secondNumber);
+    printf("la somme des deux chiffres est %.3f\n", firstNumber * secondNumber);
     system("pause");
     return 0;
 }

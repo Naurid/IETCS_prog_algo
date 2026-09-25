@@ -90,3 +90,6 @@ add_executable(exercice_28
 add_executable(exercice_29
         "exercice_29(2.3.28)/main.c"
 )
+add_executable(exercice_supp
+        "exercice_supp/main.c"
+)
