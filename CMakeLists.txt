@@ -93,3 +93,51 @@ add_executable(exercice_29
 add_executable(exercice_supp
         "exercice_supp/main.c"
 )
+add_executable(3.4.1
+        "3.4.1/main.c"
+)
+add_executable(3.4.2
+        "3.4.2/main.c"
+)
+add_executable(3.4.3
+        "3.4.3/main.c"
+)
+add_executable(3.4.4
+        "3.4.4/main.c"
+)
+add_executable(3.4.5
+        "3.4.5/main.c"
+)
+add_executable(3.4.6
+        "3.4.6/main.c"
+)
+add_executable(3.4.7
+        "3.4.7/main.c"
+)
+add_executable(3.4.8
+        "3.4.8/main.c"
+)
+add_executable(3.4.9
+        "3.4.9/main.c"
+)
+add_executable(3.4.10
+        "3.4.10/main.c"
+)
+add_executable(3.4.11
+        "3.4.11/main.c"
+)
+add_executable(3.4.12
+        "3.4.12/main.c"
+)
+add_executable(3.4.13
+        "3.4.13/main.c"
+)
+add_executable(3.4.14
+        "3.4.14/main.c"
+)
+add_executable(3.4.15
+        "3.4.15/main.c"
+)
+add_executable(3.4.16
+        "3.4.16/main.c"
+)
