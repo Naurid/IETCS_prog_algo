@@ -95,6 +95,7 @@ add_executable(exercice_supp
 )
 add_executable(3.4.1
         "3.4.1/main.c"
+        exercice_supp_09102026/Devoir_VILICS_09_octobre.c
 )
 add_executable(3.4.2
         "3.4.2/main.c"
@@ -146,4 +147,7 @@ add_executable(3.6.1
 )
 add_executable(3.6.2
         "3.6.2/main.c"
+)
+add_executable(09102026
+        "exercice_supp_09102026/Devoir_VILICS_09_octobre.c"
 )

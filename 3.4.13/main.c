@@ -18,7 +18,7 @@ int main() {
     scanf("%d", &month);
 
     if (month > 12) {
-        printf(" Y a que 12 moi dans une annee ow");
+        printf(" Y a que 12 mois dans une annee ow");
         return 0;
     }
     if (month == 2) { maxDays = 28; }
