@@ -141,3 +141,9 @@ add_executable(3.4.15
 add_executable(3.4.16
         "3.4.16/main.c"
 )
+add_executable(3.6.1
+        "3.6.1/main.c"
+)
+add_executable(3.6.2
+        "3.6.2/main.c"
+)
