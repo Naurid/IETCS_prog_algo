@@ -7,146 +7,320 @@ add_executable(exercice_1
         "exercice_1(calcul_taux)/main.c"
 )
 add_executable(exercice_2
-        "exercice_2(2.3.1)/main.c"
+        "2.3/exercice_2(2.3.1)/main.c"
 )
 add_executable(exercice_3
-        "exercice_3(2.3.2)/main.c"
+        "2.3/exercice_3(2.3.2)/main.c"
 )
 add_executable(exercice_4
-        "exercice_4(2.3.3)/main.c"
+        "2.3/exercice_4(2.3.3)/main.c"
 )
 add_executable(exercice_5
-        "exercice_5(2.3.4)/main.c"
+        "2.3/exercice_5(2.3.4)/main.c"
 )
 add_executable(exercice_6
-        "exercice_6(2.3.5)/main.c"
+        "2.3/exercice_6(2.3.5)/main.c"
 )
 add_executable(exercice_7
-        "exercice_7(2.3.6)/main.c"
+        "2.3/exercice_7(2.3.6)/main.c"
 )
 add_executable(exercice_8
-        "exercice_8(2.3.7)/main.c"
+        "2.3/exercice_8(2.3.7)/main.c"
 )
 add_executable(exercice_9
-        "exercice_9(2.3.8)/main.c"
+        "2.3/exercice_9(2.3.8)/main.c"
 )
 add_executable(exercice_10
-        "exercice_10(2.3.9)/main.c"
+        "2.3/exercice_10(2.3.9)/main.c"
 )
 add_executable(exercice_11
-        "exercice_11(2.3.10)/main.c"
+        "2.3/exercice_11(2.3.10)/main.c"
 )
 add_executable(exercice_12
-        "exercice_12(2.3.11)/main.c"
+        "2.3/exercice_12(2.3.11)/main.c"
 )
 add_executable(exercice_13
-        "exercice_13(2.3.12)/main.c"
+        "2.3/exercice_13(2.3.12)/main.c"
 )
 add_executable(exercice_14
-        "exercice_14(2.3.13)/main.c"
+        "2.3/exercice_14(2.3.13)/main.c"
 )
 add_executable(exercice_15
-        "exercice_15(2.3.14)/main.c"
+        "2.3/exercice_15(2.3.14)/main.c"
 )
 add_executable(exercice_16
-        "exercice_16(2.3.15)/main.c"
+        "2.3/exercice_16(2.3.15)/main.c"
 )
 add_executable(exercice_17
-        "exercice_17(2.3.16)/main.c"
+        "2.3/exercice_17(2.3.16)/main.c"
 )
 add_executable(exercice_18
-        "exercice_18(2.3.17)/main.c"
+        "2.3/exercice_18(2.3.17)/main.c"
 )
 add_executable(exercice_19
-        "exercice_19(2.3.18)/main.c"
+        "2.3/exercice_19(2.3.18)/main.c"
 )
 add_executable(exercice_20
-        "exercice_20(2.3.19)/main.c"
+        "2.3/exercice_20(2.3.19)/main.c"
 )
 add_executable(exercice_21
-        "exercice_21(2.3.20)/main.c"
+        "2.3/exercice_21(2.3.20)/main.c"
 )
 add_executable(exercice_22
-        "exercice_22(2.3.21)/main.c"
+        "2.3/exercice_22(2.3.21)/main.c"
 )
 add_executable(exercice_23
-        "exercice_23(2.3.22)/main.c"
+        "2.3/exercice_23(2.3.22)/main.c"
 )
 add_executable(exercice_24
-        "exercice_24(2.3.23)/main.c"
+        "2.3/exercice_24(2.3.23)/main.c"
 )
 add_executable(exercice_25
-        "exercice_25(2.3.24)/main.c"
+        "2.3/exercice_25(2.3.24)/main.c"
 )
 add_executable(exercice_26
-        "exercice_26(2.3.25)/main.c"
+        "2.3/exercice_26(2.3.25)/main.c"
 )
 add_executable(exercice_27
-        "exercice_27(2.3.26)/main.c"
+        "2.3/exercice_27(2.3.26)/main.c"
 )
 add_executable(exercice_28
-        "exercice_28(2.3.27)/main.c"
+        "2.3/exercice_28(2.3.27)/main.c"
 )
 add_executable(exercice_29
-        "exercice_29(2.3.28)/main.c"
+        "2.3/exercice_29(2.3.28)/main.c"
 )
 add_executable(exercice_supp
         "exercice_supp/main.c"
 )
 add_executable(3.4.1
-        "3.4.1/main.c"
+        "3.4/3.4.1/main.c"
 )
 add_executable(3.4.2
-        "3.4.2/main.c"
+        "3.4/3.4.2/main.c"
 )
 add_executable(3.4.3
-        "3.4.3/main.c"
+        "3.4/3.4.3/main.c"
 )
 add_executable(3.4.4
-        "3.4.4/main.c"
+        "3.4/3.4.4/main.c"
 )
 add_executable(3.4.5
-        "3.4.5/main.c"
+        "3.4/3.4.5/main.c"
 )
 add_executable(3.4.6
-        "3.4.6/main.c"
+        "3.4/3.4.6/main.c"
 )
 add_executable(3.4.7
-        "3.4.7/main.c"
+        "3.4/3.4.7/main.c"
 )
 add_executable(3.4.8
-        "3.4.8/main.c"
+        "3.4/3.4.8/main.c"
 )
 add_executable(3.4.9
-        "3.4.9/main.c"
+        "3.4/3.4.9/main.c"
 )
 add_executable(3.4.10
-        "3.4.10/main.c"
+        "3.4/3.4.10/main.c"
 )
 add_executable(3.4.11
-        "3.4.11/main.c"
+        "3.4/3.4.11/main.c"
 )
 add_executable(3.4.12
-        "3.4.12/main.c"
+        "3.4/3.4.12/main.c"
 )
 add_executable(3.4.13
-        "3.4.13/main.c"
+        "3.4/3.4.13/main.c"
 )
 add_executable(3.4.14
-        "3.4.14/main.c"
+        "3.4/3.4.14/main.c"
 )
 add_executable(3.4.15
-        "3.4.15/main.c"
+        "3.4/3.4.15/main.c"
 )
 add_executable(3.4.16
-        "3.4.16/main.c"
+        "3.4/3.4.16/main.c"
 )
 add_executable(3.6.1
-        "3.6.1/main.c"
+        "3.6/3.6.1/main.c"
 )
 add_executable(3.6.2
-        "3.6.2/main.c"
+        "3.6/3.6.2/main.c"
 )
-add_executable(09102026
-        "exercice_supp_09102026/Devoir_VILICS_09_octobre.c"
+add_executable(4.5.1
+        "4.5/4.5.1/main.c"
+)
+add_executable(4.5.2
+        "4.5/4.5.2/main.c"
+)
+add_executable(4.5.3
+        "4.5/4.5.3/main.c"
+)
+add_executable(4.5.4
+        "4.5/4.5.4/main.c"
+)
+add_executable(4.5.5
+        "4.5/4.5.5/main.c"
+)
+add_executable(4.5.6
+        "4.5/4.5.6/main.c"
+)
+add_executable(4.5.7
+        "4.5/4.5.7/main.c"
+)
+add_executable(4.5.8
+        "4.5/4.5.8/main.c"
+)
+add_executable(4.5.9
+        "4.5/4.5.9/main.c"
+)
+add_executable(4.5.10
+        "4.5/4.5.10/main.c"
+)
+add_executable(4.5.11
+        "4.5/4.5.11/main.c"
+)
+add_executable(4.5.12
+        "4.5/4.5.12/main.c"
+)
+add_executable(4.5.13
+        "4.5/4.5.13/main.c"
+)
+add_executable(4.5.14
+        "4.5/4.5.14/main.c"
+)
+add_executable(4.5.15
+        "4.5/4.5.15/main.c"
+)
+add_executable(4.5.16
+        "4.5/4.5.16/main.c"
+)
+add_executable(4.5.17
+        "4.5/4.5.17/main.c"
+)
+add_executable(4.5.18
+        "4.5/4.5.18/main.c"
+)
+add_executable(4.5.19
+        "4.5/4.5.19/main.c"
+)
+add_executable(4.5.20
+        "4.5/4.5.20/main.c"
+)
+add_executable(4.5.21
+        "4.5/4.5.21/main.c"
+)
+add_executable(4.5.22
+        "4.5/4.5.22/main.c"
+)
+add_executable(4.5.23
+        "4.5/4.5.23/main.c"
+)
+add_executable(4.5.24
+        "4.5/4.5.24/main.c"
+)
+add_executable(4.5.25
+        "4.5/4.5.25/main.c"
+)
+add_executable(4.5.26
+        "4.5/4.5.26/main.c"
+)
+add_executable(4.5.27
+        "4.5/4.5.27/main.c"
+)
+add_executable(4.5.28
+        "4.5/4.5.28/main.c"
+)
+add_executable(4.5.29
+        "4.5/4.5.29/main.c"
+)
+add_executable(4.5.30
+        "4.5/4.5.30/main.c"
+)
+add_executable(4.5.31
+        "4.5/4.5.31/main.c"
+)
+add_executable(4.5.32
+        "4.5/4.5.32/main.c"
+)
+add_executable(4.5.33
+        "4.5/4.5.33/main.c"
+)
+add_executable(4.5.34
+        "4.5/4.5.34/main.c"
+)
+add_executable(4.5.35
+        "4.5/4.5.35/main.c"
+)
+add_executable(4.5.36
+        "4.5/4.5.36/main.c"
+)
+add_executable(4.5.37
+        "4.5/4.5.37/main.c"
+)
+add_executable(4.5.38
+        "4.5/4.5.38/main.c"
+)
+add_executable(4.5.39
+        "4.5/4.5.39/main.c"
+)
+add_executable(4.5.40
+        "4.5/4.5.40/main.c"
+)
+add_executable(4.5.41
+        "4.5/4.5.41/main.c"
+)
+add_executable(4.5.42
+        "4.5/4.5.42/main.c"
+)
+add_executable(4.5.43
+        "4.5/4.5.43/main.c"
+)
+add_executable(4.5.44
+        "4.5/4.5.44/main.c"
+)
+add_executable(4.5.45
+        "4.5/4.5.45/main.c"
+)
+add_executable(4.5.46
+        "4.5/4.5.46/main.c"
+)
+add_executable(4.5.47
+        "4.5/4.5.47/main.c"
+)
+add_executable(4.5.48
+        "4.5/4.5.48/main.c"
+)
+add_executable(4.5.49
+        "4.5/4.5.49/main.c"
+)
+add_executable(4.5.50
+        "4.5/4.5.50/main.c"
+)
+add_executable(4.5.51
+        "4.5/4.5.51/main.c"
+)
+add_executable(4.5.52
+        "4.5/4.5.52/main.c"
+)
+add_executable(4.5.53
+        "4.5/4.5.53/main.c"
+)
+add_executable(4.5.54
+        "4.5/4.5.54/main.c"
+)
+add_executable(4.5.55
+        "4.5/4.5.55/main.c"
+)
+add_executable(4.5.56
+        "4.5/4.5.56/main.c"
+)
+add_executable(4.5.57
+        "4.5/4.5.57/main.c"
+)
+add_executable(4.5.58
+        "4.5/4.5.58/main.c"
+)
+add_executable(4.5.59
+        "4.5/4.5.59/main.c"
 )
