@@ -17,23 +17,36 @@ int main () {
     printf("Veuillez entrer le prix hors taxes: \n");
     scanf("%f", &price);
 
-    printf("Veuillez entrer le taux de TVA, A pour 6%, B pour 21\% \et C pour 25%  \n");
+    printf("Veuillez entrer le taux de TVA, A pour 6%, B pour 21%% et C pour 25%  \n");
 
     fflush(stdin);
     scanf("%c", &tvaCode);
 
-    if (tvaCode == 'A') {
-        printf("Le prix TTC  est de %.3f \n", price+(price*0.06));
+    switch (tvaCode)
+    {
+        case 'A':
+            printf("Le prix TTC  est de %.3f \n", price+(price*0.06));
+            break;
+        case 'B':
+            printf("Le prix TTC  est de %.3f \n", price+(price*0.21));
+            break;
+        case 'C':
+            printf("Le prix TTC  est de %.3f \n", price+(price*0.25));
+            break;
+        default:
     }
-    else if (tvaCode == 'B') {
-        printf("Le prix TTC  est de %.3f \n", price+(price*0.21));
-    }
-    else if (tvaCode == 'C'){
-        printf("Le prix TTC  est de %.3f \n", price+(price*0.25));
-    }
-    else {
-        printf("Le prix TTC est de %.3f $(le taux de 21% a ete applique par defaut)\n", price+(price*0.21));
-    }
+    // (tvaCode == 'A') {
+    //     printf("Le prix TTC  est de %.3f \n", price+(price*0.06));
+    // }
+    // else if (tvaCode == 'B') {
+    //     printf("Le prix TTC  est de %.3f \n", price+(price*0.21));
+    // }
+    // else if (tvaCode == 'C'){
+    //     printf("Le prix TTC  est de %.3f \n", price+(price*0.25));
+    // }
+    // else {
+    //     printf("Le prix TTC est de %.3f $(le taux de 21% a ete applique par defaut)\n", price+(price*0.21));
+    // }
 
     system("pause");
     return 0;

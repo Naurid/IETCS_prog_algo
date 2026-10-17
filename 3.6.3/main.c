@@ -18,7 +18,7 @@ int main () {
     printf("Veuillez entrer le prix hors taxes: \n");
     scanf("%f", &price);
 
-    printf("Veuillez entrer le taux de TVA, A pour 6%, B pour 21\% \et C pour 25%  \n");
+    printf("Veuillez entrer le taux de TVA, A pour 6%, B pour 21%% et C pour 25%  \n");
 
     fflush(stdin);
     scanf("%c", &tvaCode);
@@ -34,7 +34,7 @@ int main () {
             printf("Le prix TTC  est de %.3f \n", price+(price*0.25));
             break;
         default:
-            printf("Le prix TTC est de %.3f $(le taux de 21% a ete applique par defaut)\n", price+(price*0.21));
+            printf("Le prix TTC est de %.3f $(le taux de 21%% a ete applique par defaut)\n", price+(price*0.21));
     }
 
     system("pause");
