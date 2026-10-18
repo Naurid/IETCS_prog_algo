@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
         system("cls");
 
-        printf("Moyenne actuelle: %.1f \n", ((float)sum/(float)(i+1)));
+        if (i != 0) printf("Moyenne actuelle: %.1f \n", ((float) sum / (float) (i)));
         printf("Veuillez entrer un chiffre %c ajouter %c la somme (it%cration %d): \n", 133, 133, 130, i+1);
 
         scanf("%d", &current);
