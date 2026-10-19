@@ -7,7 +7,7 @@
 int main() {
     int number, dividers;
 
-    printf("Veuillez entrer un nombre entier pour savoir si il est entier: \n");
+    printf("Veuillez entrer un nombre entier pour savoir si il est premier: \n");
     scanf("%d", &number);
     int divider = number;
 
