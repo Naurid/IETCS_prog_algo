@@ -7,17 +7,15 @@
 
 int main () {
     int current, fifty = 0;
-    int i = 0;
 
-    while ( i < 6 ) {
+
+    for (int i = 0; i < 6;i++ ) {
         system("cls");
 
         printf("Veuillez introduire un nombre entier positif:\n");
         scanf("%d", &current);
 
         if (current == 50) fifty++;
-
-        i++;
     }
 
     if (fifty) printf("Le 50 %ctait pr%csent %d fois dans la suite de nombres que vous avez rentr%c \n", 130, 130, fifty, 130);
