@@ -15,7 +15,7 @@ int main () {
         scanf("%d", &grade);
 
         if (grade > 10 || grade < 0) {
-            printf("Le chiffre introduis est invalide!\n");
+            printf("Le chiffre introduit est invalide!\n");
             system ("pause");
         }
         system ("cls");
