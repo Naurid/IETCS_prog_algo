@@ -324,3 +324,24 @@ add_executable(4.5.58
 add_executable(4.5.59
         "4.5/4.5.59/main.c"
 )
+add_executable(4.5.60
+        "4.5/4.5.60/main.c"
+)
+add_executable(4.5.61
+        "4.5/4.5.61/main.c"
+)
+add_executable(4.5.62
+        "4.5/4.5.62/main.c"
+)
+add_executable(4.5.63
+        "4.5/4.5.63/main.c"
+)
+add_executable(4.5.64
+        "4.5/4.5.64/main.c"
+)
+add_executable(4.5.65
+        "4.5/4.5.65/main.c"
+)
+add_executable(4.5.66
+        "4.5/4.5.66/main.c"
+)
