@@ -1,4 +1,4 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
 int main() {
@@ -9,7 +9,7 @@ int main() {
 
     if (year < 1582) {
         printf("Annee non valide");
-        system("pause");
+        system("pause")
         return 0;
     }
 

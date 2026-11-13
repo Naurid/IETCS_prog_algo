@@ -1,5 +1,4 @@
-﻿//
-// Created by vilic on 02/10/2026.
+﻿// Created by vilic on 02/10/2026.
 // Lisez trois nombres entiers a, b et c puis affichez les deux plus grands.
 // Testez votre programme dans chaque cas suivant :
 // a) a = 8, b = 5 et c = 4 (a>b>c)

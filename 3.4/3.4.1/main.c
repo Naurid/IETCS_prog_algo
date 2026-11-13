@@ -4,9 +4,9 @@
 
 
 #include <stdio.h>
-#include <stdlib.h>
+#include  <stdlib.h>
 
-int main() {
+int main()  {
     int a, b;
 
     printf("Introduis le premier chiffre: \n");
@@ -15,9 +15,14 @@ int main() {
     printf("Introduis le second chiffre: \n");
     scanf("%d", &b);
 
-    if (a < b) {
+
+
+
+    if (a < b)
+    {
         printf("%d - %d = %d \n", b, a, b-a);
-    }else {
+    }
+    else {
         printf("%d - %d = %d \n", a, b, a-b);
     }
     system("pause");
