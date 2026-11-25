@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 4.2)
 project(IETCS_prog_algo C)
 
 set(CMAKE_C_STANDARD 11)
+include_directories(${CMAKE_SOURCE_DIR})
 
 add_executable(exercice_1
         "exercice_1(calcul_taux)/main.c"
@@ -122,9 +123,11 @@ add_executable(3.4.9
 )
 add_executable(3.4.10
         "3.4/3.4.10/main.c"
+        utils.h
 )
 add_executable(3.4.11
         "3.4/3.4.11/main.c"
+        utils.h
 )
 add_executable(3.4.12
         "3.4/3.4.12/main.c"
@@ -147,201 +150,11 @@ add_executable(3.6.1
 add_executable(3.6.2
         "3.6/3.6.2/main.c"
 )
-add_executable(4.5.1
-        "4.5/4.5.1/main.c"
-)
-add_executable(4.5.2
-        "4.5/4.5.2/main.c"
-)
-add_executable(4.5.3
-        "4.5/4.5.3/main.c"
-)
-add_executable(4.5.4
-        "4.5/4.5.4/main.c"
-)
-add_executable(4.5.5
-        "4.5/4.5.5/main.c"
-)
-add_executable(4.5.6
-        "4.5/4.5.6/main.c"
-)
-add_executable(4.5.7
-        "4.5/4.5.7/main.c"
-)
-add_executable(4.5.8
-        "4.5/4.5.8/main.c"
-)
-add_executable(4.5.9
-        "4.5/4.5.9/main.c"
-)
-add_executable(4.5.10
-        "4.5/4.5.10/main.c"
-)
-add_executable(4.5.11
-        "4.5/4.5.11/main.c"
-)
-add_executable(4.5.12
-        "4.5/4.5.12/main.c"
-)
-add_executable(4.5.13
-        "4.5/4.5.13/main.c"
-)
-add_executable(4.5.14
-        "4.5/4.5.14/main.c"
-)
-add_executable(4.5.15
-        "4.5/4.5.15/main.c"
-)
-add_executable(4.5.16
-        "4.5/4.5.16/main.c"
-)
-add_executable(4.5.17
-        "4.5/4.5.17/main.c"
-)
-add_executable(4.5.18
-        "4.5/4.5.18/main.c"
-)
-add_executable(4.5.19
-        "4.5/4.5.19/main.c"
-)
-add_executable(4.5.20
-        "4.5/4.5.20/main.c"
-)
-add_executable(4.5.21
-        "4.5/4.5.21/main.c"
-)
-add_executable(4.5.22
-        "4.5/4.5.22/main.c"
-)
-add_executable(4.5.23
-        "4.5/4.5.23/main.c"
-)
-add_executable(4.5.24
-        "4.5/4.5.24/main.c"
-)
-add_executable(4.5.25
-        "4.5/4.5.25/main.c"
-)
-add_executable(4.5.26
-        "4.5/4.5.26/main.c"
-)
-add_executable(4.5.27
-        "4.5/4.5.27/main.c"
-)
-add_executable(4.5.28
-        "4.5/4.5.28/main.c"
-)
-add_executable(4.5.29
-        "4.5/4.5.29/main.c"
-)
-add_executable(4.5.30
-        "4.5/4.5.30/main.c"
-)
-add_executable(4.5.31
-        "4.5/4.5.31/main.c"
-)
-add_executable(4.5.32
-        "4.5/4.5.32/main.c"
-)
-add_executable(4.5.33
-        "4.5/4.5.33/main.c"
-)
-add_executable(4.5.34
-        "4.5/4.5.34/main.c"
-)
-add_executable(4.5.35
-        "4.5/4.5.35/main.c"
-)
-add_executable(4.5.36
-        "4.5/4.5.36/main.c"
-)
-add_executable(4.5.37
-        "4.5/4.5.37/main.c"
-)
-add_executable(4.5.38
-        "4.5/4.5.38/main.c"
-)
-add_executable(4.5.39
-        "4.5/4.5.39/main.c"
-)
-add_executable(4.5.40
-        "4.5/4.5.40/main.c"
-)
-add_executable(4.5.41
-        "4.5/4.5.41/main.c"
-)
-add_executable(4.5.42
-        "4.5/4.5.42/main.c"
-)
-add_executable(4.5.43
-        "4.5/4.5.43/main.c"
-)
-add_executable(4.5.44
-        "4.5/4.5.44/main.c"
-)
-add_executable(4.5.45
-        "4.5/4.5.45/main.c"
-)
-add_executable(4.5.46
-        "4.5/4.5.46/main.c"
-)
-add_executable(4.5.47
-        "4.5/4.5.47/main.c"
-)
-add_executable(4.5.48
-        "4.5/4.5.48/main.c"
-)
-add_executable(4.5.49
-        "4.5/4.5.49/main.c"
-)
-add_executable(4.5.50
-        "4.5/4.5.50/main.c"
-)
-add_executable(4.5.51
-        "4.5/4.5.51/main.c"
-)
-add_executable(4.5.52
-        "4.5/4.5.52/main.c"
-)
-add_executable(4.5.53
-        "4.5/4.5.53/main.c"
-)
-add_executable(4.5.54
-        "4.5/4.5.54/main.c"
-)
-add_executable(4.5.55
-        "4.5/4.5.55/main.c"
-)
-add_executable(4.5.56
-        "4.5/4.5.56/main.c"
-)
-add_executable(4.5.57
-        "4.5/4.5.57/main.c"
-)
-add_executable(4.5.58
-        "4.5/4.5.58/main.c"
-)
-add_executable(4.5.59
-        "4.5/4.5.59/main.c"
-)
-add_executable(4.5.60
-        "4.5/4.5.60/main.c"
-)
-add_executable(4.5.61
-        "4.5/4.5.61/main.c"
-)
-add_executable(4.5.62
-        "4.5/4.5.62/main.c"
-)
-add_executable(4.5.63
-        "4.5/4.5.63/main.c"
-)
-add_executable(4.5.64
-        "4.5/4.5.64/main.c"
-)
-add_executable(4.5.65
-        "4.5/4.5.65/main.c"
-)
-add_executable(4.5.66
-        "4.5/4.5.66/main.c"
-)
+foreach (i RANGE 1 66)
+    add_executable(4.5.${i} "4.5/4.5.${i}/main.c"
+            "utils.c")
+endforeach ()
+foreach(i RANGE 1 31)
+    add_executable(4.6.3.${i} "4.6.3/4.6.3.${i}/main.c"
+            "utils.c")
+endforeach()

@@ -2,7 +2,7 @@
 // de la différence entre les deux dernières valeurs calculées sera inférieure à 10-6
 // Pour rappel, la formule de Newton est :
 // X0 = y/2
-// Xi = (y/2xi-1) + (xi-1/2)
+// X2 = (y/2x1) + (x1/2)
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,6 +35,7 @@ int main() {
         }
 
         x1 = x2;
+
     } while (diff > EPSILON);
 
     printf("La racine carr%ce de %f est environ %.6f\n",130, y, x2);
